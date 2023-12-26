@@ -13,6 +13,12 @@
 		30252C2B2B33234D00AFEE4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30252C292B33234D00AFEE4A /* Main.storyboard */; };
 		30252C2D2B33234E00AFEE4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30252C2C2B33234E00AFEE4A /* Assets.xcassets */; };
 		30252C302B33234E00AFEE4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30252C2E2B33234E00AFEE4A /* LaunchScreen.storyboard */; };
+		30252C3A2B3334BD00AFEE4A /* LoginChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30252C392B3334BD00AFEE4A /* LoginChooseViewController.swift */; };
+		30252C3C2B3497B900AFEE4A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30252C3B2B3497B900AFEE4A /* LoginViewController.swift */; };
+		30252C402B34B07A00AFEE4A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30252C3F2B34B07A00AFEE4A /* RegisterViewController.swift */; };
+		30252C422B35EE0000AFEE4A /* CompanySearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30252C412B35EE0000AFEE4A /* CompanySearchViewController.swift */; };
+		30B78F272B38474500168557 /* DetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B78F262B38474500168557 /* DetailPageViewController.swift */; };
+		30B78F292B38666400168557 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B78F282B38666400168557 /* UserDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +29,13 @@
 		30252C2A2B33234D00AFEE4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30252C2C2B33234E00AFEE4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30252C2F2B33234E00AFEE4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		30252C312B33234E00AFEE4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30252C312B33234E00AFEE4A /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
+		30252C392B3334BD00AFEE4A /* LoginChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginChooseViewController.swift; sourceTree = "<group>"; };
+		30252C3B2B3497B900AFEE4A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		30252C3F2B34B07A00AFEE4A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		30252C412B35EE0000AFEE4A /* CompanySearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanySearchViewController.swift; sourceTree = "<group>"; };
+		30B78F262B38474500168557 /* DetailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPageViewController.swift; sourceTree = "<group>"; };
+		30B78F282B38666400168557 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +69,18 @@
 			isa = PBXGroup;
 			children = (
 				30252C232B33234D00AFEE4A /* AppDelegate.swift */,
+				30252C3F2B34B07A00AFEE4A /* RegisterViewController.swift */,
 				30252C252B33234D00AFEE4A /* SceneDelegate.swift */,
 				30252C272B33234D00AFEE4A /* ViewController.swift */,
+				30252C392B3334BD00AFEE4A /* LoginChooseViewController.swift */,
+				30252C3B2B3497B900AFEE4A /* LoginViewController.swift */,
 				30252C292B33234D00AFEE4A /* Main.storyboard */,
+				30B78F282B38666400168557 /* UserDetailViewController.swift */,
+				30B78F262B38474500168557 /* DetailPageViewController.swift */,
+				30252C412B35EE0000AFEE4A /* CompanySearchViewController.swift */,
 				30252C2C2B33234E00AFEE4A /* Assets.xcassets */,
 				30252C2E2B33234E00AFEE4A /* LaunchScreen.storyboard */,
-				30252C312B33234E00AFEE4A /* Info.plist */,
+				30252C312B33234E00AFEE4A /* info.plist */,
 			);
 			path = "iosApp-project";
 			sourceTree = "<group>";
@@ -138,8 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30B78F272B38474500168557 /* DetailPageViewController.swift in Sources */,
+				30252C422B35EE0000AFEE4A /* CompanySearchViewController.swift in Sources */,
+				30B78F292B38666400168557 /* UserDetailViewController.swift in Sources */,
 				30252C282B33234D00AFEE4A /* ViewController.swift in Sources */,
 				30252C242B33234D00AFEE4A /* AppDelegate.swift in Sources */,
+				30252C3A2B3334BD00AFEE4A /* LoginChooseViewController.swift in Sources */,
+				30252C402B34B07A00AFEE4A /* RegisterViewController.swift in Sources */,
+				30252C3C2B3497B900AFEE4A /* LoginViewController.swift in Sources */,
 				30252C262B33234D00AFEE4A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,8 +314,9 @@
 				DEVELOPMENT_TEAM = 9HGU8XNFZ9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iosApp-project/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Fitness Unity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -318,8 +343,9 @@
 				DEVELOPMENT_TEAM = 9HGU8XNFZ9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iosApp-project/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Fitness Unity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
